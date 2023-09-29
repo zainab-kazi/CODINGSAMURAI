@@ -8,7 +8,6 @@ tasks = {}
 # add_task, view_task, delete_task respectively
 def add_task():
     task_title = input("Enter task title: ")
-    # task_description = (input("\nDescription: \n"))
     counter = 1
     while True:
         print("\nHit ENTER key to return to main menu.")
@@ -108,7 +107,7 @@ def main():
             print("Invalid choice. Please try again!")
     
 
-# calling the main() function already defined above    
+# calling the main(), load_tasks(), saved_tasks() function already defined above    
 if __name__ == "__main__":
     main()
     load_tasks()
